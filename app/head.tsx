@@ -1,4 +1,7 @@
+import useDarkMode from "./utils/useDarkMode";
+
 export default function Head() {
+
   return (
     <>
       <title></title>

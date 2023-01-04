@@ -1,4 +1,8 @@
+
+import Link from 'next/link';
 import './globals.css';
+
+
 
 export default function RootLayout({
   children,
@@ -12,7 +16,9 @@ export default function RootLayout({
         <div>
           {children}
         </div>
-        <h1>Shady.gg</h1>
+        <Link href="/">
+          <h1>Shady.gg</h1>
+        </Link>
       </body>
       
     </html>
