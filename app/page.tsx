@@ -17,7 +17,6 @@ export default function HomePage() {
         } else {
             //router.push(`/404`);
         }
-        
     }
 
     return (
