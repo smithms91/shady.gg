@@ -15,7 +15,7 @@ export default function HomePage() {
         } else if (e.target[0].value === 'commands'){
             router.push(`/commands`);
         } else {
-            //router.push(`/404`);
+            router.push(`/`);
         }
     }
 
