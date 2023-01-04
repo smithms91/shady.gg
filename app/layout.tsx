@@ -8,7 +8,13 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>{children}</body>
+      <body>
+        <div>
+          {children}
+        </div>
+        <h1>Shady.gg</h1>
+      </body>
+      
     </html>
   )
 }
