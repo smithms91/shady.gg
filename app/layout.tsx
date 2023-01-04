@@ -15,6 +15,7 @@ export default function RootLayout({
       <body>
         <div>
           {children}
+          
         </div>
         <Link href="/">
           <h1>Shady.gg</h1>
