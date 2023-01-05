@@ -2,6 +2,7 @@
 import { useRouter } from 'next/navigation';
 
 
+
 export default function HomePage() {
   
     const router = useRouter();
@@ -23,7 +24,9 @@ export default function HomePage() {
         <div className="center-box">
             <h3 className="font-mono">Enter a command:</h3>
             <form onSubmit={handleSubmit}> 
+            
                 <input className="bg-black text-white-500 p-2 font-mono" type="text" id="command-input" placeholder="ex. commands"/>
+                
             </form>
         </div>
     )

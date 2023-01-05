@@ -78,3 +78,12 @@ h1 {
     text-align: center;
     margin-top: 2rem;
 }
+
+/* Discord Page */
+
+.discord-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

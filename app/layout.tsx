@@ -1,6 +1,7 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import Footer from '../app/components/Footer';
 import './globals.css';
-
 
 
 export default function RootLayout({
@@ -15,9 +16,7 @@ export default function RootLayout({
         <div>
           {children}
         </div>
-        <Link href="/">
-          <h1>Shady.gg</h1>
-        </Link>
+        <Footer color="light" />
       </body>
       
     </html>
