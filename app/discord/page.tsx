@@ -14,7 +14,7 @@ export default function DiscordPage() {
                 <code className="mb-3 bg-gray-700 transition group-hover:bg-gray-500 text-gray-200 px-4 py-2 rounded relative flex">Secret Discord</code>
             </Link>
             <Link href="">
-                <code className="mb-3 bg-gray-700 transition group-hover:bg-gray-500 text-gray-200 px-4 py-2 rounded relative flex">Secret Discord</code>
+                <code className="mb-3 bg-gray-700 transition group-hover:bg-gray-500 text-gray-200 px-4 py-2 rounded relative flex">Secret</code>
             </Link>
         </div>
     )

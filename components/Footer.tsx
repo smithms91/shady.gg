@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import shadySVG from '../../public/shady.svg';
-import shadyLightSVG from '../../public/shady-light.svg';
+import shadySVG from '../public/shady.svg';
+import shadyLightSVG from '../public/shady-light.svg';
 
 function chooseColor(color) {
     if (color == 'light') {

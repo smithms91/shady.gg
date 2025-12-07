@@ -7,6 +7,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -34,6 +35,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: 'Roboto';
 }
 ol, ul {
 	list-style: none;
@@ -51,6 +53,30 @@ table {
 	border-spacing: 0;
 }
 
+/* Navbar */
+nav {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+/* Input Field */
+#command-input {
+    padding: 10px;
+    outline: none;
+    border-radius: 2px;
+    caret-color: red;
+    border: 2px solid rgba(0, 0, 0, 0.336);
+    color: black;
+}
+
+#command-input::placeholder {
+    color: darkblue;
+    
+}
+
 
 /* Home Page */
 body {
@@ -58,9 +84,9 @@ body {
     color: white;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .center-box {

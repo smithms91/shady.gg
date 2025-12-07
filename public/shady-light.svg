@@ -2,6 +2,10 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.98 116.41">
   <defs>
     <style>
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+
       .cls-1 {
         fill: #fff;
       }
